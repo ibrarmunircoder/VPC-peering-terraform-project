@@ -43,6 +43,12 @@ As a result, the Product Service in the **Primary VPC** could not reach the Orde
 
 ---
 
+### Architecture Diagram:
+
+![architecture diagram](./screenshots/diagram.png)
+
+---
+
 ### 🚀 Overview:
 
 This project demonstrates how to enable **secure, private, cross-region communication** between two isolated VPCs (**Primary VPC** and **Secondary VPC**) using **VPC Peering** and **Terraform as Infrastructure as Code (IaC)**.
