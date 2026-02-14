@@ -38,7 +38,7 @@ Pinged private EC2 instance in **Primary VPC** from private EC2 instance in **Se
 
 ---
 
-### 🚀 Key Features
+### 🚀 Key Features:
 
 - Two VPCs deployed in different AWS regions within the same account  
 - Cross-region VPC Peering connection between Primary and Secondary VPC  
