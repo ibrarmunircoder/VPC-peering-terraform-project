@@ -4,7 +4,7 @@ Enabled secure, private cross-region communication between **Primary VPC** and *
 
 ---
 
-### 📌 Overview:
+### 📌 Project Overview:
 
 This project demonstrates how to enable **secure, private, cross-region communication** between two isolated VPCs (**Primary VPC** and **Secondary VPC**) using **VPC Peering** and **Terraform as Infrastructure as Code (IaC)**.
 
