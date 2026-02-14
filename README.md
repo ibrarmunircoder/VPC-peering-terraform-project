@@ -59,10 +59,15 @@ A **Jumpbox (bastion host)** is used for secure administrative access, following
 
 ### 🚀 Key Features
 
-- **Infrastructure as Code (IaC)** using Terraform for automated and repeatable AWS provisioning
-- **Remote Terraform state management** using Amazon S3 for centralized and reliable state storage
-- **Terraform modules** to reduce duplication and improve maintainability
-- **Secure access pattern** using a Jumpbox with SSH agent forwarding
+- Two VPCs deployed in different AWS regions within the same account  
+- Cross-region VPC Peering connection between Primary and Secondary VPC  
+- Private EC2 instances deployed in isolated application subnets  
+- Route table configuration enabling inter-VPC communication  
+- Security group rules controlling service-to-service traffic  
+- Jumpbox (bastion host) for secure administrative access  
+- Terraform-based infrastructure provisioning (Infrastructure as Code)  
+- Reusable Terraform modules for networking components  
+- Remote Terraform state management using Amazon S3  
 
 ---
 
